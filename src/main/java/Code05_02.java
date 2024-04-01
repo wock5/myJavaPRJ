@@ -7,6 +7,6 @@ public class Code05_02 {
             System.out.println("작습니다");
             System.out.println(".");
         }
-
+        System.out.println("난 무조건 실행 된다.");
     }
 }
