@@ -8,6 +8,7 @@ public class Study_04 {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
+
         System.out.println("a = " + a);
         System.out.println("b = " + b);
     }
