@@ -1,4 +1,4 @@
-package Study_01;
+package Programmers;
 import java.util.Scanner;
 
 public class Study_03 {
