@@ -26,8 +26,9 @@ public class Code05_07 {
                         System.out.printf("F");
                     }
 
-                    System.out.printf("학점입니다.");
-                    s.close();
+
+System.out.println("학점입니다.");
+s.close();
                 }
             }
         }
