@@ -6,6 +6,7 @@ public class Code09_02 {
         int[] numAry = new int[4];
         int hap = 0;
 
+
         System.out.print("숫자 : ");
         numAry[0] = s.nextInt();
         System.out.print("숫자 : ");
