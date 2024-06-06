@@ -3,9 +3,10 @@ class Rabbit1 {
     int xPos;
     int yPos;
 
-    Rabbit1() {
-        shape = "토끼";
+    Rabbit1(String rabbitcolor){
+        shape = rabbitcolor;
     }
+
 
     void  setPosition(int xPos, int yPos) {
         this.xPos = xPos;
@@ -15,8 +16,13 @@ class Rabbit1 {
 
 public class Code07_10 {
     public static void main(String[] args) {
-        Rabbit1 rabbit = new Rabbit1();
+        Rabbit1 rabbit1 = new Rabbit1("파란색");
+        System.out.println(rabbit1.shape);
 
-        System.out.printf("토끼 객체의 기본 모양은 [%s] 입니다.", rabbit.shape);
+        Rabbit1 rabbit2 = new Rabbit1("rabbitcolor");
+        System.out.println("rabit : " + rabbit2.shape);
+
+        Rabbit1 rabbit3 = new Rabbit1("2");
+        System.out.println("rabit : "+ rabbit3.shape);
     }
 }
